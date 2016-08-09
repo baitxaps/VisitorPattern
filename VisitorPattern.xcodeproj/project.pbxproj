@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		778B39321D5983320092436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39311D5983320092436C /* main.m */; };
+		778B393A1D59837C0092436C /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39391D59837C0092436C /* Employee.m */; };
+		778B393D1D59862F0092436C /* CommonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B393C1D59862F0092436C /* CommonEmployee.m */; };
+		778B39401D5986AA0092436C /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B393F1D5986AA0092436C /* Manager.m */; };
+		778B39451D5990640092436C /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39441D5990640092436C /* Visitor.m */; };
+		778B394B1D59AD090092436C /* ConcreteElement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B394A1D59AD090092436C /* ConcreteElement1.m */; };
+		778B394E1D59ADC80092436C /* ConcreteElement2.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B394D1D59ADC80092436C /* ConcreteElement2.m */; };
+		778B39521D59B0170092436C /* RHCVistor.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39511D59B0170092436C /* RHCVistor.m */; };
+		778B39551D59BDB60092436C /* ObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39541D59BDB60092436C /* ObjectStructure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,27 @@
 /* Begin PBXFileReference section */
 		778B392E1D5983320092436C /* VisitorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VisitorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B39311D5983320092436C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		778B39381D59837C0092436C /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		778B39391D59837C0092436C /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		778B393B1D59862F0092436C /* CommonEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonEmployee.h; sourceTree = "<group>"; };
+		778B393C1D59862F0092436C /* CommonEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonEmployee.m; sourceTree = "<group>"; };
+		778B393E1D5986AA0092436C /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		778B393F1D5986AA0092436C /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		778B39411D598DA00092436C /* VisitorPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisitorPattern001.png; sourceTree = "<group>"; };
+		778B39421D598F680092436C /* IVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
+		778B39431D5990640092436C /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		778B39441D5990640092436C /* Visitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		778B39471D59AC770092436C /* visitorPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitorPattern002.png; sourceTree = "<group>"; };
+		778B39481D59ACAB0092436C /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		778B39491D59AD090092436C /* ConcreteElement1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteElement1.h; sourceTree = "<group>"; };
+		778B394A1D59AD090092436C /* ConcreteElement1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteElement1.m; sourceTree = "<group>"; };
+		778B394C1D59ADC80092436C /* ConcreteElement2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteElement2.h; sourceTree = "<group>"; };
+		778B394D1D59ADC80092436C /* ConcreteElement2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteElement2.m; sourceTree = "<group>"; };
+		778B394F1D59AF560092436C /* RHCIVistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCIVistor.h; sourceTree = "<group>"; };
+		778B39501D59B0170092436C /* RHCVistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCVistor.h; sourceTree = "<group>"; };
+		778B39511D59B0170092436C /* RHCVistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCVistor.m; sourceTree = "<group>"; };
+		778B39531D59BDB60092436C /* ObjectStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectStructure.h; sourceTree = "<group>"; };
+		778B39541D59BDB60092436C /* ObjectStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectStructure.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +70,7 @@
 		778B39251D5983320092436C = {
 			isa = PBXGroup;
 			children = (
+				778B39461D59AC250092436C /* Visitor */,
 				778B39301D5983320092436C /* VisitorPattern */,
 				778B392F1D5983320092436C /* Products */,
 			);
@@ -57,9 +87,37 @@
 		778B39301D5983320092436C /* VisitorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				778B39411D598DA00092436C /* VisitorPattern001.png */,
 				778B39311D5983320092436C /* main.m */,
+				778B39381D59837C0092436C /* Employee.h */,
+				778B39391D59837C0092436C /* Employee.m */,
+				778B393B1D59862F0092436C /* CommonEmployee.h */,
+				778B393C1D59862F0092436C /* CommonEmployee.m */,
+				778B393E1D5986AA0092436C /* Manager.h */,
+				778B393F1D5986AA0092436C /* Manager.m */,
+				778B39421D598F680092436C /* IVisitor.h */,
+				778B39431D5990640092436C /* Visitor.h */,
+				778B39441D5990640092436C /* Visitor.m */,
 			);
 			path = VisitorPattern;
+			sourceTree = "<group>";
+		};
+		778B39461D59AC250092436C /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				778B39471D59AC770092436C /* visitorPattern002.png */,
+				778B39481D59ACAB0092436C /* Element.h */,
+				778B394F1D59AF560092436C /* RHCIVistor.h */,
+				778B39491D59AD090092436C /* ConcreteElement1.h */,
+				778B394A1D59AD090092436C /* ConcreteElement1.m */,
+				778B394C1D59ADC80092436C /* ConcreteElement2.h */,
+				778B394D1D59ADC80092436C /* ConcreteElement2.m */,
+				778B39501D59B0170092436C /* RHCVistor.h */,
+				778B39511D59B0170092436C /* RHCVistor.m */,
+				778B39531D59BDB60092436C /* ObjectStructure.h */,
+				778B39541D59BDB60092436C /* ObjectStructure.m */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				778B39321D5983320092436C /* main.m in Sources */,
+				778B394B1D59AD090092436C /* ConcreteElement1.m in Sources */,
+				778B39521D59B0170092436C /* RHCVistor.m in Sources */,
+				778B393D1D59862F0092436C /* CommonEmployee.m in Sources */,
+				778B393A1D59837C0092436C /* Employee.m in Sources */,
+				778B39551D59BDB60092436C /* ObjectStructure.m in Sources */,
+				778B39451D5990640092436C /* Visitor.m in Sources */,
+				778B394E1D59ADC80092436C /* ConcreteElement2.m in Sources */,
+				778B39401D5986AA0092436C /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
