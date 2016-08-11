@@ -12,8 +12,12 @@
 #import "Visitor.h"
 #import "ObjectStructure.h"
 #import "RHCVistor.h"
+#import "TotalVisitor.h"
+#import "ShowVisitor.h"
+#import "KungFuRole.h"
+#import "OldActor.h"
 
-NSArray *mackEmployerr() {
+NSArray *mockEmployee() {
     NSMutableArray *empList = [NSMutableArray new];
     CommonEmployee *zhangSan = [CommonEmployee new];
     zhangSan.job = @"编写Java程序，绝对的蓝领、苦工加搬运工";
@@ -39,10 +43,11 @@ NSArray *mackEmployerr() {
     return empList;
 }
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // 1
-        for (Employee *emp in mackEmployerr()) {
+        for (Employee *emp in mockEmployee()) {
             [emp accept:[Visitor new]];
         }
         
@@ -51,6 +56,34 @@ int main(int argc, const char * argv[]) {
             id<Element>el = [ObjectStructure createElement];
             [el accept: [RHCVistor new]];
         }
+
+         // 3
+        id<IVisitor>visitor = [Visitor new];
+        for (Employee *emp in mockEmployee()) {
+            [emp accept:visitor];
+        }
+        NSLog(@"本公司的月工资总额是:%ld",[visitor totoalSalary]);
+        
+        
+        // 3.1 多个访问者
+        id <IShowVisitor>showVisitor = [ShowVisitor new];
+        id <ITotalVisitor>totalVisitor = [TotalVisitor new];
+        for (Employee *emp in mockEmployee()) {
+            [emp accept:showVisitor];
+            [emp accept:totalVisitor];
+        }
+        [showVisitor report];
+        [totalVisitor totoalSalary];
+        
+        // 4 双分派
+        // 定义一个演员
+        AbsActor *actor = [OldActor new];
+        // 定义一个角色
+        id<Role>role = [KungFuRole new];
+        // 开始演戏
+        [actor act:role];
+        [actor act:[KungFuRole new]];
+        
     }
     return 0;
 }

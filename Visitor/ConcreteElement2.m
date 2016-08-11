@@ -16,9 +16,17 @@
      NSLog(@"%s",__func__);
 }
 
-- (void)accept:(id<RHCIVistor>)visitor {
+- (void)accept:(id<RHCIVistor>)visitor {    
+//    
+//    [self performSelectorOnMainThread:@selector(RefreshCellForLiveId:)
+//                           withObject:self
+//                        waitUntilDone:YES];
+    
     [visitor visit:self];
 }
 
+- (void)RefreshCellForLiveId:(id)obj {
+    sleep(5);
+}
 
 @end

@@ -10,15 +10,24 @@
 #import "Manager.h"
 #import "CommonEmployee.h"
 
+@interface Visitor ()
+@property (nonatomic,assign)NSInteger commonTotalSalary ;
+@property (nonatomic,assign)NSInteger managerTotalSalary ;
+@end
+
 @implementation Visitor
 
 - (void)visit:(Employee *)employee {
-    // 访问普通员工，打印出报表
-    if ([employee isMemberOfClass:[CommonEmployee class]]) {
+    
+    if ([employee isMemberOfClass:[CommonEmployee class]]) { // 访问普通员工，打印出报表
          NSLog(@"%@",[self commonEmployee:(CommonEmployee *)employee]);
-        // 访问部门经理，打印出报表
-    } else if ([employee isMemberOfClass:[Manager class]]) {
+        
+        [self calCommonSalary:employee.salary];
+       
+    } else if ([employee isMemberOfClass:[Manager class]]) {  // 访问部门经理，打印出报表
            NSLog(@"%@",[self managerInfo:(Manager *)employee]);
+        
+           [self calManagerSalary:employee.salary];
     }
 }
 
@@ -48,4 +57,24 @@
     return result;
 }
 
+/**
+ *  统计功能访问者模式
+ */
+static NSInteger MANAGER_COEFFICIENT = 5; // 部门经理的工资系数是5
+static NSInteger COMMONEMPLOYEE_COEFFICIENT = 2;// 员工的工资系数是2
+
+// 计算部门经理的工资总和
+- (void)calManagerSalary:(NSInteger)salary {
+    self.managerTotalSalary = self.managerTotalSalary +salary*MANAGER_COEFFICIENT;
+}
+
+// 计算普通员工的工资总和
+- (void)calCommonSalary:(NSInteger)salary {
+    self.commonTotalSalary = self.commonTotalSalary +salary*COMMONEMPLOYEE_COEFFICIENT;
+}
+
+// 获得所有员式的工资总和
+- (NSInteger)totoalSalary {
+    return self.commonTotalSalary + self.managerTotalSalary;
+}
 @end

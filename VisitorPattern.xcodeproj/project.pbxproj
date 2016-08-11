@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770815481D5C279000F33129 /* TotalVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 770815471D5C279000F33129 /* TotalVisitor.m */; };
+		7708154B1D5C2B5100F33129 /* ShowVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708154A1D5C2B5100F33129 /* ShowVisitor.m */; };
+		770815521D5C331000F33129 /* KungFuRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 770815511D5C331000F33129 /* KungFuRole.m */; };
+		770815551D5C333700F33129 /* IdiotRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 770815541D5C333700F33129 /* IdiotRole.m */; };
+		770815581D5C335A00F33129 /* AbsActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 770815571D5C335A00F33129 /* AbsActor.m */; };
+		7708155B1D5C348800F33129 /* YoungActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708155A1D5C348800F33129 /* YoungActor.m */; };
+		7708155E1D5C34F800F33129 /* OldActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7708155D1D5C34F800F33129 /* OldActor.m */; };
 		778B39321D5983320092436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39311D5983320092436C /* main.m */; };
 		778B393A1D59837C0092436C /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B39391D59837C0092436C /* Employee.m */; };
 		778B393D1D59862F0092436C /* CommonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B393C1D59862F0092436C /* CommonEmployee.m */; };
@@ -31,6 +38,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		770815451D5C273C00F33129 /* ITotalVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITotalVisitor.h; sourceTree = "<group>"; };
+		770815461D5C279000F33129 /* TotalVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalVisitor.h; sourceTree = "<group>"; };
+		770815471D5C279000F33129 /* TotalVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalVisitor.m; sourceTree = "<group>"; };
+		770815491D5C2B5100F33129 /* ShowVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowVisitor.h; sourceTree = "<group>"; };
+		7708154A1D5C2B5100F33129 /* ShowVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowVisitor.m; sourceTree = "<group>"; };
+		7708154C1D5C2B8500F33129 /* IShowVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IShowVisitor.h; sourceTree = "<group>"; };
+		7708154D1D5C321800F33129 /* VisitorPattern003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisitorPattern003.png; sourceTree = "<group>"; };
+		7708154F1D5C32E900F33129 /* Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Role.h; sourceTree = "<group>"; };
+		770815501D5C331000F33129 /* KungFuRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KungFuRole.h; sourceTree = "<group>"; };
+		770815511D5C331000F33129 /* KungFuRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KungFuRole.m; sourceTree = "<group>"; };
+		770815531D5C333700F33129 /* IdiotRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdiotRole.h; sourceTree = "<group>"; };
+		770815541D5C333700F33129 /* IdiotRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdiotRole.m; sourceTree = "<group>"; };
+		770815561D5C335A00F33129 /* AbsActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsActor.h; sourceTree = "<group>"; };
+		770815571D5C335A00F33129 /* AbsActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsActor.m; sourceTree = "<group>"; };
+		770815591D5C348800F33129 /* YoungActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoungActor.h; sourceTree = "<group>"; };
+		7708155A1D5C348800F33129 /* YoungActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoungActor.m; sourceTree = "<group>"; };
+		7708155C1D5C34F800F33129 /* OldActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldActor.h; sourceTree = "<group>"; };
+		7708155D1D5C34F800F33129 /* OldActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldActor.m; sourceTree = "<group>"; };
 		778B392E1D5983320092436C /* VisitorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VisitorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B39311D5983320092436C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		778B39381D59837C0092436C /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
@@ -67,9 +92,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		770815441D5C271B00F33129 /* iShow */ = {
+			isa = PBXGroup;
+			children = (
+				7708154D1D5C321800F33129 /* VisitorPattern003.png */,
+				770815451D5C273C00F33129 /* ITotalVisitor.h */,
+				7708154C1D5C2B8500F33129 /* IShowVisitor.h */,
+				770815461D5C279000F33129 /* TotalVisitor.h */,
+				770815471D5C279000F33129 /* TotalVisitor.m */,
+				770815491D5C2B5100F33129 /* ShowVisitor.h */,
+				7708154A1D5C2B5100F33129 /* ShowVisitor.m */,
+			);
+			path = iShow;
+			sourceTree = "<group>";
+		};
+		7708154E1D5C32D800F33129 /* Role */ = {
+			isa = PBXGroup;
+			children = (
+				7708154F1D5C32E900F33129 /* Role.h */,
+				770815501D5C331000F33129 /* KungFuRole.h */,
+				770815511D5C331000F33129 /* KungFuRole.m */,
+				770815531D5C333700F33129 /* IdiotRole.h */,
+				770815541D5C333700F33129 /* IdiotRole.m */,
+				770815561D5C335A00F33129 /* AbsActor.h */,
+				770815571D5C335A00F33129 /* AbsActor.m */,
+				770815591D5C348800F33129 /* YoungActor.h */,
+				7708155A1D5C348800F33129 /* YoungActor.m */,
+				7708155C1D5C34F800F33129 /* OldActor.h */,
+				7708155D1D5C34F800F33129 /* OldActor.m */,
+			);
+			path = Role;
+			sourceTree = "<group>";
+		};
 		778B39251D5983320092436C = {
 			isa = PBXGroup;
 			children = (
+				7708154E1D5C32D800F33129 /* Role */,
+				770815441D5C271B00F33129 /* iShow */,
 				778B39461D59AC250092436C /* Visitor */,
 				778B39301D5983320092436C /* VisitorPattern */,
 				778B392F1D5983320092436C /* Products */,
@@ -180,10 +239,17 @@
 				778B394B1D59AD090092436C /* ConcreteElement1.m in Sources */,
 				778B39521D59B0170092436C /* RHCVistor.m in Sources */,
 				778B393D1D59862F0092436C /* CommonEmployee.m in Sources */,
+				770815551D5C333700F33129 /* IdiotRole.m in Sources */,
 				778B393A1D59837C0092436C /* Employee.m in Sources */,
+				770815521D5C331000F33129 /* KungFuRole.m in Sources */,
 				778B39551D59BDB60092436C /* ObjectStructure.m in Sources */,
 				778B39451D5990640092436C /* Visitor.m in Sources */,
+				7708155B1D5C348800F33129 /* YoungActor.m in Sources */,
+				770815481D5C279000F33129 /* TotalVisitor.m in Sources */,
 				778B394E1D59ADC80092436C /* ConcreteElement2.m in Sources */,
+				7708154B1D5C2B5100F33129 /* ShowVisitor.m in Sources */,
+				7708155E1D5C34F800F33129 /* OldActor.m in Sources */,
+				770815581D5C335A00F33129 /* AbsActor.m in Sources */,
 				778B39401D5986AA0092436C /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +341,7 @@
 		778B39361D5983320092436C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -282,6 +349,7 @@
 		778B39371D5983320092436C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -305,6 +373,7 @@
 				778B39371D5983320092436C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

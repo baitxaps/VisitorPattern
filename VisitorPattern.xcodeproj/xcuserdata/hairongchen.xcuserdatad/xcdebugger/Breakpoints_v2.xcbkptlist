@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Visitor/ConcreteElement2.m"
-            timestampString = "492421005.317788"
+            filePath = "VisitorPattern/Visitor.m"
+            timestampString = "492578467.048926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-accept:"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-totoalSalary"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iShow/TotalVisitor.m"
+            timestampString = "492582887.082194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-totoalSalary"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

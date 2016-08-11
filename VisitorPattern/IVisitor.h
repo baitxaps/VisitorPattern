@@ -13,4 +13,6 @@
 
 - (void)visit:(Employee *)employee;
 
+- (NSInteger)totoalSalary;
+
 @end
